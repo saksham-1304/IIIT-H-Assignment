@@ -1,0 +1,61 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environment
+venv/
+env/
+ENV/
+.venv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.github
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# MFA Specific
+# Keep mfa_data/ and output_textgrids/ in repo for assignment submission
+# But ignore temporary MFA files if they appear
+*.log
+*.tmp
+.mfa_align_temp/
+
+# Praat temporary files
+*.praat~
+
+# OS specific
+Thumbs.db
+desktop.ini
+
+# Large model files (if you download any)
+pretrained_models/
+*.zip
+
+# Personal notes (optional)
+notes.txt
+TODO.txt
